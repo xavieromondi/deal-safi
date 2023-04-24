@@ -1,0 +1,54 @@
+.search-container {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.search-input {
+  padding: 0.5rem;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  width: 60%;
+}
+
+.search-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  font-size: 1.2rem;
+}
+.ebay-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+}
+
+.ebay-container h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.ebay-container p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.ebay-container img {
+  max-width: 100%;
+  height: auto;
+}
